@@ -1,5 +1,15 @@
 import type { Agent, Instance, Connection, MarketplaceAgent } from "./types"
 
+// Simple store hook using mock data
+export function useAgentStore() {
+  return {
+    agents: mockAgents,
+    instances: mockInstances,
+    connections: mockConnections,
+    marketplaceAgents: mockMarketplaceAgents,
+  }
+}
+
 // Mock data for demonstration
 export const mockAgents: Agent[] = [
   {
