@@ -52,8 +52,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-import { mockInstances, mockAgents } from "@/lib/store"
-import type { Instance } from "@/lib/types"
+import { mockInstances, mockAgents } from "../lib/store"
+import type { Instance } from "../lib/types"
 
 export function InstanceManagerView() {
   const [instances, setInstances] = useState<Instance[]>(mockInstances)

@@ -48,8 +48,8 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Switch } from "@/components/ui/switch"
-import { mockAgents } from "@/lib/store"
-import type { Agent, Tool, Trigger } from "@/lib/types"
+import { mockAgents } from "../lib/store"
+import type { Agent, Tool, Trigger } from "../lib/types"
 
 const modelOptions = [
   { value: "gpt-4-turbo", label: "GPT-4 Turbo", provider: "OpenAI" },

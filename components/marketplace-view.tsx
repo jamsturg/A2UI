@@ -30,8 +30,8 @@ import {
 } from "@/components/ui/sheet"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
-import { mockMarketplaceAgents } from "@/lib/store"
-import type { MarketplaceAgent } from "@/lib/types"
+import { mockMarketplaceAgents } from "../lib/store"
+import type { MarketplaceAgent } from "../lib/types"
 
 const categories = [
   { id: "all", label: "All" },

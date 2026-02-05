@@ -47,8 +47,8 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Textarea } from "@/components/ui/textarea"
-import { mockInstances, mockConnections } from "@/lib/store"
-import type { Connection, Instance } from "@/lib/types"
+import { mockInstances, mockConnections } from "../lib/store"
+import type { Connection, Instance } from "../lib/types"
 
 const connectionTypeConfig = {
   data: { icon: Database, label: "Data Flow", color: "text-blue-500" },
