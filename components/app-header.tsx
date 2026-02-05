@@ -1,9 +1,9 @@
 "use client"
 
 import { Bell, Search, Settings, Sparkles } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Badge } from "@/components/ui/badge"
+import { Button } from "./ui/button"
+import { Input } from "./ui/input"
+import { Badge } from "./ui/badge"
 
 interface AppHeaderProps {
   title: string

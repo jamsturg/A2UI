@@ -1,9 +1,9 @@
 "use client"
 
 import { Activity, Bot, GitBranch, Zap, TrendingUp, TrendingDown, Clock } from "lucide-react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Progress } from "@/components/ui/progress"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card"
+import { Badge } from "./ui/badge"
+import { Progress } from "./ui/progress"
 import { mockAgents, mockInstances } from "../lib/store"
 
 const stats = [
