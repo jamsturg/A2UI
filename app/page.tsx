@@ -32,7 +32,7 @@ export default function Home() {
         {activeTab === "marketplace" && <MarketplaceView />}
       </main>
 
-      <MobileNav activeTab={activeTab} onTabChange={setActiveTab} />
+      <MobileNav activeView={activeTab} onViewChange={setActiveTab} />
     </div>
   )
 }
